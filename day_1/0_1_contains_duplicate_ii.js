@@ -16,3 +16,6 @@ const containsNearbyDuplicate = function(nums, k) {
 
     return false;
 };
+
+// Time: O(n) where n is the length of nums
+// Space: O(n) where n is the length of nums
