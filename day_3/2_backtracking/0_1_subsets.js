@@ -21,4 +21,5 @@ var subsets = function(nums) {
     return res;
 };
 
-
+// Time: O(n*2^n) where n is the length of nums;
+// Space: O(n) where n is the length of nums;

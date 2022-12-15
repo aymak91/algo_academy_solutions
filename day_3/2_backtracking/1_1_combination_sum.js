@@ -19,3 +19,6 @@ var combinationSum = function(candidates, target) {
     backtrack(0,[],0);
     return res;
 };
+
+// Time: O(n^(t/m+1)) where n = number of candidates, t = target value, m =minimal value among candidates. t/m+1 is max num of nodes
+// Time: O(t/m) where n = number of candidates, t = target value, m =minimal value among candidates
